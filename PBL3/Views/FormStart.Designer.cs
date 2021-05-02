@@ -31,30 +31,30 @@ namespace PBL3
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormStart));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges9 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges10 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges11 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges12 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnOrder = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnSetting = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnBill = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btnLogin = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.startMain1 = new PBL3.Views.StartMain();
+            this.login1 = new PBL3.Views.Login();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -73,52 +73,8 @@ namespace PBL3
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 44);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(97, 567);
+            this.panel1.Size = new System.Drawing.Size(97, 699);
             this.panel1.TabIndex = 0;
-            // 
-            // bunifuDragControl1
-            // 
-            this.bunifuDragControl1.Fixed = true;
-            this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = this.panel2;
-            this.bunifuDragControl1.Vertical = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DarkRed;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.bunifuButton2);
-            this.panel2.Controls.Add(this.bunifuButton1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1060, 44);
-            this.panel2.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gold;
-            this.label2.Location = new System.Drawing.Point(42, 14);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Food and Beverage";
-            // 
-            // bunifuElipse2
-            // 
-            this.bunifuElipse2.ElipseRadius = 35;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PBL3.Properties.Resources._6e510a0f_0fa4_43c7_9d6d_f47e4568a334;
-            this.pictureBox2.Location = new System.Drawing.Point(103, 50);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(945, 549);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
             // 
             // btnOrder
             // 
@@ -139,11 +95,11 @@ namespace PBL3
             this.btnOrder.ColorContrastOnClick = 45;
             this.btnOrder.ColorContrastOnHover = 45;
             this.btnOrder.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.btnOrder.CustomizableEdges = borderEdges1;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btnOrder.CustomizableEdges = borderEdges7;
             this.btnOrder.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnOrder.DisabledBorderColor = System.Drawing.Color.Firebrick;
             this.btnOrder.DisabledFillColor = System.Drawing.Color.Firebrick;
@@ -168,7 +124,7 @@ namespace PBL3
             this.btnOrder.IdleIconRightImage = global::PBL3.Properties.Resources.choices;
             this.btnOrder.ImeMode = System.Windows.Forms.ImeMode.On;
             this.btnOrder.IndicateFocus = false;
-            this.btnOrder.Location = new System.Drawing.Point(12, 298);
+            this.btnOrder.Location = new System.Drawing.Point(12, 363);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.OnDisabledState.BorderColor = System.Drawing.Color.Firebrick;
             this.btnOrder.OnDisabledState.BorderRadius = 1;
@@ -209,6 +165,7 @@ namespace PBL3
             this.btnOrder.TextMarginLeft = 0;
             this.btnOrder.TextPadding = new System.Windows.Forms.Padding(0);
             this.btnOrder.UseDefaultRadiusAndThickness = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnSetting
             // 
@@ -229,11 +186,11 @@ namespace PBL3
             this.btnSetting.ColorContrastOnClick = 45;
             this.btnSetting.ColorContrastOnHover = 45;
             this.btnSetting.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.btnSetting.CustomizableEdges = borderEdges2;
+            borderEdges8.BottomLeft = true;
+            borderEdges8.BottomRight = true;
+            borderEdges8.TopLeft = true;
+            borderEdges8.TopRight = true;
+            this.btnSetting.CustomizableEdges = borderEdges8;
             this.btnSetting.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSetting.DisabledBorderColor = System.Drawing.Color.Firebrick;
             this.btnSetting.DisabledFillColor = System.Drawing.Color.Firebrick;
@@ -258,7 +215,7 @@ namespace PBL3
             this.btnSetting.IdleIconRightImage = global::PBL3.Properties.Resources.settings;
             this.btnSetting.ImeMode = System.Windows.Forms.ImeMode.On;
             this.btnSetting.IndicateFocus = false;
-            this.btnSetting.Location = new System.Drawing.Point(12, 461);
+            this.btnSetting.Location = new System.Drawing.Point(12, 598);
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.OnDisabledState.BorderColor = System.Drawing.Color.Firebrick;
             this.btnSetting.OnDisabledState.BorderRadius = 1;
@@ -319,11 +276,11 @@ namespace PBL3
             this.btnBill.ColorContrastOnClick = 45;
             this.btnBill.ColorContrastOnHover = 45;
             this.btnBill.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges3.BottomLeft = true;
-            borderEdges3.BottomRight = true;
-            borderEdges3.TopLeft = true;
-            borderEdges3.TopRight = true;
-            this.btnBill.CustomizableEdges = borderEdges3;
+            borderEdges9.BottomLeft = true;
+            borderEdges9.BottomRight = true;
+            borderEdges9.TopLeft = true;
+            borderEdges9.TopRight = true;
+            this.btnBill.CustomizableEdges = borderEdges9;
             this.btnBill.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnBill.DisabledBorderColor = System.Drawing.Color.Firebrick;
             this.btnBill.DisabledFillColor = System.Drawing.Color.Firebrick;
@@ -348,7 +305,7 @@ namespace PBL3
             this.btnBill.IdleIconRightImage = global::PBL3.Properties.Resources.payment;
             this.btnBill.ImeMode = System.Windows.Forms.ImeMode.On;
             this.btnBill.IndicateFocus = false;
-            this.btnBill.Location = new System.Drawing.Point(12, 372);
+            this.btnBill.Location = new System.Drawing.Point(12, 437);
             this.btnBill.Name = "btnBill";
             this.btnBill.OnDisabledState.BorderColor = System.Drawing.Color.Firebrick;
             this.btnBill.OnDisabledState.BorderRadius = 1;
@@ -409,11 +366,11 @@ namespace PBL3
             this.btnLogin.ColorContrastOnClick = 45;
             this.btnLogin.ColorContrastOnHover = 45;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.btnLogin.CustomizableEdges = borderEdges4;
+            borderEdges10.BottomLeft = true;
+            borderEdges10.BottomRight = true;
+            borderEdges10.TopLeft = true;
+            borderEdges10.TopRight = true;
+            this.btnLogin.CustomizableEdges = borderEdges10;
             this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnLogin.DisabledBorderColor = System.Drawing.Color.Firebrick;
             this.btnLogin.DisabledFillColor = System.Drawing.Color.Firebrick;
@@ -438,7 +395,7 @@ namespace PBL3
             this.btnLogin.IdleIconRightImage = global::PBL3.Properties.Resources.enter__1_;
             this.btnLogin.ImeMode = System.Windows.Forms.ImeMode.On;
             this.btnLogin.IndicateFocus = false;
-            this.btnLogin.Location = new System.Drawing.Point(12, 224);
+            this.btnLogin.Location = new System.Drawing.Point(12, 273);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.OnDisabledState.BorderColor = System.Drawing.Color.Firebrick;
             this.btnLogin.OnDisabledState.BorderRadius = 1;
@@ -490,6 +447,37 @@ namespace PBL3
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel2;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DarkRed;
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.bunifuButton2);
+            this.panel2.Controls.Add(this.bunifuButton1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1283, 44);
+            this.panel2.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Gold;
+            this.label2.Location = new System.Drawing.Point(42, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(140, 17);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Food and Beverage";
             // 
             // bunifuButton2
             // 
@@ -510,11 +498,11 @@ namespace PBL3
             this.bunifuButton2.ColorContrastOnClick = 45;
             this.bunifuButton2.ColorContrastOnHover = 45;
             this.bunifuButton2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.bunifuButton2.CustomizableEdges = borderEdges5;
+            borderEdges11.BottomLeft = true;
+            borderEdges11.BottomRight = true;
+            borderEdges11.TopLeft = true;
+            borderEdges11.TopRight = true;
+            this.bunifuButton2.CustomizableEdges = borderEdges11;
             this.bunifuButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton2.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton2.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -599,11 +587,11 @@ namespace PBL3
             this.bunifuButton1.ColorContrastOnClick = 45;
             this.bunifuButton1.ColorContrastOnHover = 45;
             this.bunifuButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.bunifuButton1.CustomizableEdges = borderEdges6;
+            borderEdges12.BottomLeft = true;
+            borderEdges12.BottomRight = true;
+            borderEdges12.TopLeft = true;
+            borderEdges12.TopRight = true;
+            this.bunifuButton1.CustomizableEdges = borderEdges12;
             this.bunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
@@ -670,14 +658,36 @@ namespace PBL3
             this.bunifuButton1.UseDefaultRadiusAndThickness = true;
             this.bunifuButton1.Click += new System.EventHandler(this.bunifuButton1_Click);
             // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 35;
+            this.bunifuElipse2.TargetControl = this;
+            // 
+            // startMain1
+            // 
+            this.startMain1.BackColor = System.Drawing.Color.White;
+            this.startMain1.Location = new System.Drawing.Point(103, 67);
+            this.startMain1.Name = "startMain1";
+            this.startMain1.Size = new System.Drawing.Size(1168, 664);
+            this.startMain1.TabIndex = 8;
+            // 
+            // login1
+            // 
+            this.login1.BackColor = System.Drawing.Color.White;
+            this.login1.Location = new System.Drawing.Point(103, 47);
+            this.login1.Name = "login1";
+            this.login1.Size = new System.Drawing.Size(1168, 684);
+            this.login1.TabIndex = 7;
+            // 
             // FormStart
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1060, 611);
-            this.Controls.Add(this.pictureBox2);
+            this.ClientSize = new System.Drawing.Size(1283, 743);
+            this.Controls.Add(this.startMain1);
+            this.Controls.Add(this.login1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -685,10 +695,9 @@ namespace PBL3
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Start";
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -702,13 +711,14 @@ namespace PBL3
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnSetting;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btnOrder;
         public Bunifu.UI.WinForms.BunifuButton.BunifuButton btnBill;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
         private System.Windows.Forms.Label label2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private Views.Login login1;
+        private Views.StartMain startMain1;
     }
 }
 

@@ -76,4 +76,5 @@ C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.csproj.CopyCompl
 C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.exe
 C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.pdb
 C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.FormStart.resources
-C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.Views.FormLogin.resources
+C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.Views.Login.resources
+C:\Users\rynth\OneDrive\Desktop\4\PBL3\PBL3\PBL3\obj\Debug\PBL3.Views.StartMain.resources

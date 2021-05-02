@@ -148,12 +148,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Views\FormStart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,9 +156,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Views\FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Views\Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StartMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\StartMain.Designer.cs">
+      <DependentUpon>StartMain.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Views\FormStart.resx">
       <DependentUpon>FormStart.cs</DependentUpon>
     </EmbeddedResource>
@@ -179,6 +182,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Views\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\StartMain.resx">
+      <DependentUpon>StartMain.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -228,6 +237,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\180478677_479136336763688_337598169216810801_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\180478677_479136336763688_337598169216810801_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clerk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round-table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bench.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glass.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

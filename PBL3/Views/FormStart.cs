@@ -10,6 +10,7 @@ namespace PBL3
         public FormStart()
         {
             InitializeComponent();
+            startMain1.BringToFront();
         }
 
         private void bunifuButton1_Click(object sender, EventArgs e)
@@ -18,10 +19,17 @@ namespace PBL3
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            FormLogin f = new FormLogin();
-            //AddOwnedForm(f);
-            this.Hide();
-            f.Show();
+            login1.BringToFront();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            startMain1.BringToFront();
+        }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

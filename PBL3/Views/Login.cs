@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace PBL3.Views
 {
-    public partial class FormLogin : Form
+    public partial class Login : UserControl
     {
-        public FormLogin()
+        public Login()
         {
             InitializeComponent();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
     }
 }
